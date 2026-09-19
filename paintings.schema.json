@@ -6,6 +6,9 @@
   "required": ["artist", "email", "phone", "paintings"],
   "additionalProperties": false,
   "properties": {
+    "$schema": {
+      "type": "string"
+    },
     "artist": {
       "type": "string",
       "minLength": 1
