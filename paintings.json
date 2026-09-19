@@ -1,0 +1,34 @@
+{
+  "artist": "Deirdre Faver",
+  "email": "deirdrefaver@gmail.com",
+  "phone": "(541) 350-2489",
+  "paintings": [
+    {
+      "id": 1,
+      "title": "Pink Cactus Flower",
+      "medium": "Acrylic on canvas",
+      "size": "16 × 20 in",
+      "price": 199,
+      "description": "The delicate center of a blooming prickly pear, where the pink and yellow petals glow in the desert heat.",
+      "sold": false
+    },
+    {
+      "id": 2,
+      "title": "Orange Cactus Flower",
+      "medium": "Acrylic on canvas",
+      "size": "16 × 20 in",
+      "price": 199,
+      "description": "A claret cup cactus in full bloom — those bright reds and oranges only seem to exist in the Sonoran desert.",
+      "sold": false
+    },
+    {
+      "id": 3,
+      "title": "Prickly Pear with Mountains",
+      "medium": "Acrylic on canvas",
+      "size": "20 × 30 in",
+      "price": 350,
+      "description": "The landscape I see from my favorite painting spot — prickly pear in the foreground, the mountains catching that pink light at dusk.",
+      "sold": false
+    }
+  ]
+}
