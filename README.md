@@ -6,16 +6,21 @@ Live site: https://buy.faverfineart.com/
 
 ## Current structure
 
-- `index.html` contains the live one-page site, including layout, styles, scripts, and embedded painting images.
+- `index.html` contains the one-page website layout, style, gallery, About section, and buy buttons.
+- `assets/` contains the web-ready artwork photos and artist portrait used by the page.
 - `CNAME` points GitHub Pages to `buy.faverfineart.com`.
-- `paintings.json` stores artwork and contact data in a cleaner editable format, but the current `index.html` still has the live painting cards hardcoded.
+- `paintings.json` stores artwork and contact data in a clean editable format.
 - `paintings.schema.json` documents the expected shape of the artwork catalog.
 
 ## How to maintain the site today
 
 For small copy, price, contact, or sold-status changes, update the matching text in `index.html` and keep `paintings.json` in sync if the same details appear there.
 
-For new paintings, add the artwork details to `paintings.json`, then add the matching card and image content in `index.html`.
+For new paintings:
+
+1. Add the web-ready image to the `assets/` folder.
+2. Add the artwork details to `paintings.json`, including the image path.
+3. Add the matching painting card in `index.html`.
 
 When editing `paintings.json`, keep each painting object in this shape:
 
@@ -27,12 +32,11 @@ When editing `paintings.json`, keep each painting object in this shape:
   "size": "16 × 20 in",
   "price": 199,
   "description": "Short description for the painting.",
+  "image": "assets/painting-file-name.jpg",
   "sold": false
 }
 ```
 
 ## Recommended next cleanup
 
-The easiest long-term maintenance path is to move painting images into separate image files and have `index.html` render the artwork list from `paintings.json`. That would make future updates much smaller, easier to review, and less error-prone.
-
-The safest next implementation step is to add original image files under an `assets/` folder, then update `paintings.json` with an image path for each painting before changing the live page rendering.
+The next long-term improvement would be to have `index.html` automatically build the gallery from `paintings.json`. That would make future painting updates even easier because each new painting would only need one image file and one catalog entry.
