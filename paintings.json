@@ -1,4 +1,5 @@
 {
+  "$schema": "./paintings.schema.json",
   "artist": "Deirdre Faver",
   "email": "deirdrefaver@gmail.com",
   "phone": "(541) 350-2489",
