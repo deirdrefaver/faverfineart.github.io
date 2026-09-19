@@ -26,7 +26,7 @@
       "minItems": 1,
       "items": {
         "type": "object",
-        "required": ["id", "title", "medium", "size", "price", "description", "sold"],
+        "required": ["id", "title", "medium", "size", "price", "description", "image", "sold"],
         "additionalProperties": false,
         "properties": {
           "id": {
@@ -50,6 +50,10 @@
             "minimum": 0
           },
           "description": {
+            "type": "string",
+            "minLength": 1
+          },
+          "image": {
             "type": "string",
             "minLength": 1
           },
