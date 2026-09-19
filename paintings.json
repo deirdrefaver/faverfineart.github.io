@@ -11,6 +11,7 @@
       "size": "16 × 20 in",
       "price": 199,
       "description": "The delicate center of a blooming prickly pear, where the pink and yellow petals glow in the desert heat.",
+      "image": "assets/pink-cactus-flower.jpg",
       "sold": false
     },
     {
@@ -19,7 +20,8 @@
       "medium": "Acrylic on canvas",
       "size": "16 × 20 in",
       "price": 199,
-      "description": "A claret cup cactus in full bloom — those bright reds and oranges only seem to exist in the Sonoran desert.",
+      "description": "A claret cup cactus in full bloom, with bright reds and oranges that feel right at home in the Sonoran desert.",
+      "image": "assets/orange-cactus-flowers.jpg",
       "sold": false
     },
     {
@@ -28,7 +30,8 @@
       "medium": "Acrylic on canvas",
       "size": "20 × 30 in",
       "price": 350,
-      "description": "The landscape I see from my favorite painting spot — prickly pear in the foreground, the mountains catching that pink light at dusk.",
+      "description": "Prickly pear in the foreground, with the mountains catching that soft pink Arizona light at dusk.",
+      "image": "assets/prickly-pear-mountains.jpg",
       "sold": false
     }
   ]
